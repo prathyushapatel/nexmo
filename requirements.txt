@@ -4,4 +4,3 @@ numba
 librosa
 tornado==4.4.2
 webrtcvad
-sklearn
