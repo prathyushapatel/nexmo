@@ -1,8 +1,7 @@
 python-dotenv
 nexmo
-numba==0.48
+numba
 librosa
-tornado==4.2
+tornado
 webrtcvad
 sklearn
-scikit-learn
