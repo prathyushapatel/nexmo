@@ -4,3 +4,4 @@ numba==0.48
 librosa
 tornado==4.2
 webrtcvad
+scikit-learn
