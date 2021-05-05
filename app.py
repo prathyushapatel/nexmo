@@ -71,7 +71,11 @@ def _get_private_key():
 	return private_key
 
 PRIVATE_KEY = _get_private_key()
-
+print(PRIVATE_KEY)
+if not PRIVATE_KEY:
+	with open('private.key', 'r') as f:
+			PRIVATE_KEY = f.read()
+print(PRIVATE_KEY)
 class BufferedPipe(object):
 	def __init__(self, max_frames, sink):
 		"""
