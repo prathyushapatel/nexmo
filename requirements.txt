@@ -2,6 +2,6 @@ python-dotenv
 nexmo
 numba
 librosa
-tornado
+tornado==4.4.2
 webrtcvad
 sklearn
