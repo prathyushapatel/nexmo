@@ -155,7 +155,7 @@ class AudioProcessor(object):
 
 class MLModel(object):
 	def __init__(self):
-		self.model = joblib.load("models/GaussianProcessClassifier-20190807T1859.pkl.pkl")
+		self.model = joblib.load("models/GaussianProcessClassifier-20190807T1859.pkl")
 # 		self.model = pickle.load(open("models/GaussianProcessClassifier-20190807T1859.pkl", "rb"),protocol=2)
 		info(self.model)
 
