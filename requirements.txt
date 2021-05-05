@@ -6,8 +6,8 @@ chardet==3.0.4
 cryptography==2.4.2
 decorator==4.3.0
 idna==2.8
-librosa==0.6.2
-llvmlite==0.27.0
+librosa
+numba
 nexmo==2.3.0
 pycparser==2.19
 PyJWT==1.7.1
