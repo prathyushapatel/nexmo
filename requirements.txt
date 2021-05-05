@@ -1,7 +1,7 @@
 python-dotenv
 nexmo
 numba==0.48
+pysndfile
 librosa
 tornado==4.2
 webrtcvad
-libsndfile
