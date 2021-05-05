@@ -5,3 +5,4 @@ librosa
 tornado==4.2
 webrtcvad
 sklearn
+scikit-learn
